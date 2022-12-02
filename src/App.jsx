@@ -1,8 +1,12 @@
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
       <section>
-        <h1>Bruh</h1>
+        <Navbar />
+        <Home />
       </section>
     </>
   );
