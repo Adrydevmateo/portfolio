@@ -3,9 +3,9 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const Home = () => {
   return (
-    <section id="home" className="w-full h-screen bg-[#0a192f]">
+    <article id="home" className="w-full h-screen bg-[#0a192f]">
       <section className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#72483b]">Hi, my name is</p>
+        <p className="text-[#8e5b49]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Adry Mateo Ramon
         </h1>
@@ -15,7 +15,7 @@ const Home = () => {
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I&apos;m a full-stack developer specializing in building (and
           occasionally designing) exceptional digital experience. Currently,
-          I&apos; focused on building responsive full-stack web applications.
+          I&apos;m focused on building responsive full-stack web applications.
         </p>
         <section>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#72483b] hover:border-[#72483b]">
@@ -26,7 +26,7 @@ const Home = () => {
           </button>
         </section>
       </section>
-    </section>
+    </article>
   );
 };
 
