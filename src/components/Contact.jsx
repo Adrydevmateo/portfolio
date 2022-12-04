@@ -6,7 +6,11 @@ const Contact = () => {
       id="contact"
       className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4"
     >
-      <form action="" className="flex flex-col max-w-[600px] w-full">
+      <form
+        action="https://getform.io/f/b5f32784-230f-4490-bb8f-be157c2205f5"
+        method="POST"
+        className="flex flex-col max-w-[600px] w-full"
+      >
         <section className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-[#72483b] text-gray-300">
             Contact
