@@ -21,7 +21,7 @@ const Work = () => {
             style={{
               backgroundImage: `url(${"https://raw.githubusercontent.com/Adrydevmateo/calendar/master/public/preview.png"})`,
             }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card hover:scale-105 duration-300"
           >
             <section className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -53,7 +53,7 @@ const Work = () => {
             style={{
               backgroundImage: `url(${"https://raw.githubusercontent.com/Adrydevmateo/calendar/master/public/preview.png"})`,
             }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card hover:scale-105 duration-300"
           >
             <section className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
@@ -85,7 +85,7 @@ const Work = () => {
             style={{
               backgroundImage: `url(${"https://raw.githubusercontent.com/Adrydevmateo/calendar/master/public/preview.png"})`,
             }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card"
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card hover:scale-105 duration-300"
           >
             <section className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
