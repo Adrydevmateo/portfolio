@@ -17,14 +17,14 @@ const Home = () => {
           occasionally designing) exceptional digital experience. Currently,
           I&apos;m focused on building responsive full-stack web applications.
         </p>
-        <section>
+        <div className="hover:scale-y-95 duration-300">
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#72483b] hover:border-[#72483b]">
             <span className="pr-2">View Work</span>
             <span className="group-hover:rotate-180 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
-        </section>
+        </div>
       </section>
     </article>
   );
