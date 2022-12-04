@@ -22,36 +22,96 @@ const Skills = () => {
 
         <section className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={HTMLImg} alt="HTML Icon" />
-            <p className="my-4">HTML</p>
+            <a
+              className="w-full"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target={"_blank"}
+            >
+              <img className="w-20 mx-auto" src={HTMLImg} alt="HTML Icon" />
+              <p className="my-4">HTML</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={CSSImg} alt="HTML Icon" />
-            <p className="my-4">CSS</p>
+            <a
+              className="w-full"
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target={"_blank"}
+            >
+              <img className="w-20 mx-auto" src={CSSImg} alt="HTML Icon" />
+              <p className="my-4">CSS</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={JavaScriptImg} alt="HTML Icon" />
-            <p className="my-4">JAVASCRIPT</p>
+            <a
+              className="w-full"
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target={"_blank"}
+            >
+              <img
+                className="w-20 mx-auto"
+                src={JavaScriptImg}
+                alt="HTML Icon"
+              />
+              <p className="my-4">JAVASCRIPT</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
-            <p className="my-4">REACT</p>
+            <a
+              className="w-full"
+              href="https://reactjs.org/docs/getting-started.html"
+              target={"_blank"}
+            >
+              <img className="w-20 mx-auto" src={ReactImg} alt="HTML Icon" />
+              <p className="my-4">REACT</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={NodeJsImg} alt="HTML Icon" />
-            <p className="my-4">NODEJS</p>
+            <a
+              className="w-full"
+              href="https://nodejs.org/en/docs/"
+              target={"_blank"}
+            >
+              <img className="w-20 mx-auto" src={NodeJsImg} alt="HTML Icon" />
+              <p className="my-4">NODEJS</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={NextJsImage} alt="HTML Icon" />
-            <p className="my-4">NEXTJS</p>
+            <a
+              className="w-full"
+              href="https://nextjs.org/docs/getting-started"
+              target={"_blank"}
+            >
+              <img className="w-20 mx-auto" src={NextJsImage} alt="HTML Icon" />
+              <p className="my-4">NEXTJS</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={TypeScriptImg} alt="HTML Icon" />
-            <p className="my-4">TYPESCRIPT</p>
+            <a
+              className="w-full"
+              href="https://www.typescriptlang.org/docs/"
+              target={"_blank"}
+            >
+              <img
+                className="w-20 mx-auto"
+                src={TypeScriptImg}
+                alt="HTML Icon"
+              />
+              <p className="my-4">TYPESCRIPT</p>
+            </a>
           </article>
           <article className="shadow-md shadow-[#040c16] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={MongoDBImage} alt="HTML Icon" />
-            <p className="my-4">MONGODB</p>
+            <a
+              className="w-full"
+              href="https://www.mongodb.com/docs/"
+              target={"_blank"}
+            >
+              <img
+                className="w-20 mx-auto"
+                src={MongoDBImage}
+                alt="HTML Icon"
+              />
+              <p className="my-4">MONGODB</p>
+            </a>
           </article>
         </section>
       </section>
