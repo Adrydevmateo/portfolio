@@ -1,4 +1,4 @@
-<img src="" alt="Preview Image">
+<img src="preview.png" alt="Preview Image">
 
 # Portfolio
 
