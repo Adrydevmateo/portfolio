@@ -25,11 +25,11 @@ const Work = () => {
           >
             <section className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Calendar {">"} TS
+                EvoGym {">"} TS
               </span>
               <section className="pt-8 text-center">
                 <a
-                  href={"https://calendar-nine-zeta.vercel.app/"}
+                  href={"https://gym-ts.vercel.app/"}
                   target={"_blank"}
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
@@ -37,7 +37,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/Adrydevmateo/calendar"
+                  href="https://github.com/Adrydevmateo/gym_ts"
                   target={"_blank"}
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
