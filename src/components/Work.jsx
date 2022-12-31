@@ -19,7 +19,7 @@ const Work = () => {
           {/* Calendar Project */}
           <article
             style={{
-              backgroundImage: `url(${"https://github.com/Adrydevmateo/gym_ts/blob/master/public/preview.png"})`,
+              backgroundImage: `url(${"https://github.com/Adrydevmateo/gym_ts/blob/master/public/preview.png?raw=true"})`,
             }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-card hover:scale-105 duration-300"
           >
