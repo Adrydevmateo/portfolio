@@ -23,11 +23,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@components/*": ["./src/components/*"],
-      "@svg/*": ["./src/components/svg/*"],
-      "@assets/*": ["./src/assets/*"],
-      "@img/*": ["./src/assets/img/*"],
       "@css/*": ["./src/assets/css/*"],
+      "@img/*": ["./src/assets/img/*"],
       "@data/*": ["./src/data/*"]
     }
   },

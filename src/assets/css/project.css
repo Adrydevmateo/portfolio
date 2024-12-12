@@ -1,0 +1,49 @@
+.project {
+    padding-inline: 10px;
+    margin-bottom: 30px;
+}
+
+.project__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.project__head h3 {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.project__head h3 a svg {
+    transform: translate(4px, 2px);
+}
+
+.project__head > a svg {
+    display: flex;
+}
+
+@media (hover: hover) {
+    .project__head h3 a:hover {
+        color: var(--accent-color);
+        text-decoration: underline;
+        text-underline-offset: 5.5px;
+        text-decoration-style: dotted;
+    }
+
+    .project__head h3 a svg {
+        transition: transform 0.2s ease;
+    }
+
+    .project__head h3 a:hover svg {
+        transform: translate(6px, 1px);
+    }
+
+    .project__head > a svg:hover {
+        filter: brightness(200%);
+    }
+}

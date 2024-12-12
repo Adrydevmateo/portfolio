@@ -1,0 +1,22 @@
+.experience h3 span {
+    color: var(--accent-color);
+}
+
+.experience li::marker {
+    color: var(--accent-color);
+}
+
+.experience__technologies ul {
+    list-style: none;
+    display: flex;
+    padding-inline: 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.experience__technologies li {
+    background: var(--accent-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 3px 10px;
+}

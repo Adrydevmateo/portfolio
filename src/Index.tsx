@@ -1,7 +1,11 @@
+import { Experience, Header, Projects } from "@/components";
+
 export default function Index() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <Header />
+      <Experience />
+      <Projects />
     </>
   );
 }

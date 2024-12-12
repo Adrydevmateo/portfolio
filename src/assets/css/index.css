@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #141415;
+    --secondary-color: #f1f1f2;
+    --accent-color: #d74b0d;
+    --muted-color: #8f8f90;
+
+    scroll-behavior: smooth;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    word-wrap: break-word;
+}
+
+p,
+li {
+    color: var(--muted-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+ul {
+    padding-inline: 33px;
+}
