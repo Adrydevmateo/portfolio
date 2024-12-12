@@ -1,4 +1,4 @@
-export function Header() {
+export default function Header() {
   return (
     <header>
       <h1>Adry Mateo Ramon</h1>

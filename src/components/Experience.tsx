@@ -1,7 +1,7 @@
 import "@css/experience.css";
 import experienceList from "@data/experience";
 
-export function Experience() {
+export default function Experience() {
   return (
     <section>
       <h2>Experience</h2>

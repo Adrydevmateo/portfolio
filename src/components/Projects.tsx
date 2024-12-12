@@ -1,7 +1,7 @@
 import "@css/project.css";
 import projectList from "@data/project";
 
-export function Projects() {
+export default function Projects() {
   return (
     <section>
       <h2>Projects</h2>
