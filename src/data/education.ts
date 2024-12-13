@@ -5,7 +5,7 @@ export default [
     category: "Bachelor of Science",
   },
   {
-    name: "University of California, Berkeley",
+    name: "University of California, Berkeleys",
     at: "ITLA",
     category: "Master of Science",
   },

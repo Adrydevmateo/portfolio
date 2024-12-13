@@ -23,3 +23,32 @@ a {
 ul {
     padding-inline: 33px;
 }
+
+.disabled {
+    pointer-events: none;
+}
+
+.link svg {
+    transform: translate(4px, 2px);
+}
+
+@media (hover: hover) {
+    .link:hover {
+        color: var(--accent-color);
+        text-decoration: underline;
+        text-underline-offset: 5.5px;
+        text-decoration-style: dotted;
+    }
+
+    .link svg {
+        transition: transform 0.2s ease;
+    }
+
+    .link:hover svg {
+        transform: translate(6px, 1px);
+    }
+
+    .link svg:hover {
+        filter: brightness(200%);
+    }
+}
